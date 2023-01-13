@@ -1,0 +1,1 @@
+{"template":{"metadata":{"annotations":{"autoscaling.knative.dev/minScale":"1"}},"spec":{"containers":[{"image":"docker.io/nginxdemos/hello:latest","name":"workload","securityContext":{"runAsUser":1000}}]}}}
